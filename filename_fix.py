@@ -1,10 +1,3 @@
-#This is a tool for embedding date and time info into images and videos pulled from Snapchat's Memories using Snapchat's API.
-#The script parses the date and time info from the filename where the name follows the format:
-#year-month-date_hour-minute-time (example: 2014-01-10_19-38-28.jpg).
-#The images and videos can be downloaded by following this guide:
-#https://github.com/ToTheMax/Snapchat-All-Memories-Downloader
-#Note that this requires an installation of ffmpeg in order to rewrite the image/video date/time tags
-
 import os
 import re
 from datetime import datetime
