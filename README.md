@@ -2,8 +2,11 @@
 
 
 Prerequisites:
+
 Python 3.X
+
 [Exiftool](https://exiftool.org/install.html)
+
 This python script uses images and videos downloaded from Snapchat Memories (https://github.com/ToTheMax/Snapchat-All-Memories-Downloader).
 
 First, the script parses the date and time info from the filename where the name follows the format:
