@@ -4,10 +4,8 @@ from datetime import datetime
 import subprocess
 
 # Specify the file path
-file_path = '/Volumes/4TB/Photos Backups/Snapchat Exports/test'
-ffmpegpath = '/Users/kellylab/audio-orchestrator-ffmpeg/bin/ffmpeg'
-#file_path = input("Drag the folder here")
-#file_path = file_path.strip('\'')
+file_path = '/WHEREVER/YOU/HAVE/THE/IMAGES/AND/VIDEOS/folder'
+ffmpegpath = 'WHEREVER/YOU/HAVE/FFMPEG/INSTALLED/ffmpeg'
 
 #Define a function with the input for file path which lists all the files in the directory while excluding hidden files
 def list_visible_files_with_list_comprehension(file_path):
